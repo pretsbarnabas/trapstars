@@ -1,0 +1,2 @@
+# trapstars
+mindenki aki számít
