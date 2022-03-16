@@ -26,3 +26,12 @@ body{
 .video-container{
     clip-path: polygon(0 30%, 100% 10%, 100% 95%, 0 70%);
 }
+
+.logo{
+    height: 20vh;
+    margin-left: 2vh;
+}
+
+.logo-container{
+    position: absolute;
+}
