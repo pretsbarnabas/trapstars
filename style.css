@@ -10,6 +10,12 @@ body{
     color: white
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
 .menubar{
     height: 50px;
 }
@@ -17,10 +23,11 @@ body{
 .header{
     height: 80vh;
     background-color: black;
+    width: 100vw;
 }
 
 .video{
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 .video-container{
@@ -45,15 +52,22 @@ body{
 
 .title{
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
 }
 
 .title-container{
-    height: 10vh;
+    height: 20vh;
     width: 100vw;
     text-align: center;
     font-size: 8vh;
     color: red;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     padding-bottom: 1%;
     animation-name: moveFromTop;
     animation-duration: 1s;
@@ -62,6 +76,7 @@ body{
 
 .members{
     display: flex;
+
     height: 50vh;
     flex-direction: row;
     margin-top: 7vh;
@@ -86,6 +101,10 @@ body{
     width: 50%;
     animation-name: moveFromRight;
     animation-duration: 1s;
+}
+
+.content{
+
 }
 
 li{
