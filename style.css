@@ -106,6 +106,22 @@ body{
 
 }
 
+.vmain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+}
+
+.vszoveg{
+    font-size: 3vh;
+    color: white;
+}
+
+#valtozoKep{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 li{
     list-style: none;
 
