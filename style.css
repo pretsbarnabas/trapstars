@@ -33,7 +33,7 @@ body{
     height: 100%;
 }
 .video-container{
-    clip-path: polygon(0 30%, 100% 10%, 100% 95%, 0 70%);
+    clip-path: polygon(0 30%, 100% 19%, 100% 95%, 0 70%);
     width: 100vw;
     height: 90vh;
 }
