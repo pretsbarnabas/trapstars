@@ -11,7 +11,7 @@ function Valtozo(artist){
         valtozoSzoveg.style.width = "500px";
         onScreen = true;
     }
-    valtozoKep.innerHTML = "<img src='assets/misi.jpg'>";   
+    valtozoKep.innerHTML = "<img src='assets/" + artist + ".jpg'>";   
     valtozoSzoveg.innerHTML = "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, itaque expedita. Similique officia, beatae soluta doloremque optio doloribus alias rerum ipsam officiis. Temporibus, voluptate ipsam asperiores cum magni exercitationem. Quasi?</p>";
     return onScreen;
 }
