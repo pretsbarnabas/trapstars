@@ -4,7 +4,12 @@
 }
 
 body{
-    background-image: linear-gradient(to right bottom, rgba(80, 60, 20, 0.5), rgba(230, 230, 230, 0.9));
+    background-image: linear-gradient(to right bottom, rgba(10, 10, 10, 0.7), rgba(0, 0, 0, 0.9));
     height: 100vw;
-}
 
+}
+ #kep{
+     width: 50vw;
+    
+
+    }
