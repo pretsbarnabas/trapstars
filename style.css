@@ -134,15 +134,21 @@ li a:hover{
     text-decoration: none;
 }
 .containera {
-    width: 1000px;
+    width: 100%;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-wrap: wrap;
+
 }
 
 .containera .card {
     position: relative;
     border-radius: 10px;
+    margin: 0 25px 25px 25px;
+
 }
 
 .containera .card .icon {
@@ -157,7 +163,10 @@ li a:hover{
 }
 
 .containera .card:nth-child(1) .icon {
-    background: #e07768;
+    background-image: url(assets/misi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .containera .card:nth-child(2) .icon {
@@ -190,8 +199,8 @@ i {
 }
 
 .containera .card .face {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
     transition: 0.5s;
 }
 
