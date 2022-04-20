@@ -218,6 +218,60 @@ li a:hover{
     background-repeat: no-repeat;
     background-position: center;
 }
+.containera .card:nth-child(10) .icon {
+    background-image: url(assets/ybs1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(11) .icon {
+    background-image: url(assets/khaze1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(12) .icon {
+    background-image: url(assets/lenszkij3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(13) .icon {
+    background-image: url(assets/2roo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(14) .icon {
+    background-image: url(assets/pachee1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(15) .icon {
+    background-image: url(assets/purple1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(16) .icon {
+    background-image: url(assets/dj\ gozth2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(17) .icon {
+    background-image: url(assets/slowgod1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(18) .icon {
+    background-image: url(assets/grasa4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .containera .card .icon .fa {
     position: absolute;
     top: 90%;
