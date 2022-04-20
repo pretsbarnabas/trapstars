@@ -170,22 +170,64 @@ li a:hover{
 }
 
 .containera .card:nth-child(2) .icon {
-    background: #6eadd4;
+    background-image: url(assets/ibbi4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .containera .card:nth-child(3) .icon {
-    background: #4aada9;
+    background-image: url(assets/Kisé2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-
+.containera .card:nth-child(4) .icon {
+    background-image: url(assets/gyuris1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(5) .icon {
+    background-image: url(assets/shybalenci1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(6) .icon {
+    background-image: url(assets/akcalfonz1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(7) .icon {
+    background-image: url(assets/ekhoe3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.containera .card:nth-child(8) .icon {
+    background-image: url(assets/filo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.containera .card:nth-child(9) .icon {
+    background-image: url(assets/grasa4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .containera .card .icon .fa {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 30px;
     transition: 0.7s;
     color: #fff;
+    font-family: 'Pirata One', cursive;
+    color:red;
 }
 
 i {
@@ -230,6 +272,7 @@ i {
 
 .containera .card .face.face1 .content i{
     max-width: 100px;
+
 }
 
 .containera .card .face.face2 {
@@ -253,6 +296,7 @@ i {
     padding: 0;
     text-align: center;
     color: #414141;
+    
 }
 
 .containera .card .face.face2 .content h3 {
@@ -268,8 +312,11 @@ i {
     text-decoration: none;
     color: #414141;
 }
-
-
+.containera a:hover{
+    color: #f00;
+    text-decoration: none;
+    
+}
 
 @keyframes moveFromLeft{
     0%{
