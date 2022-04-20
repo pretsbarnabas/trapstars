@@ -267,7 +267,7 @@ li a:hover{
     background-position: center;
 }
 .containera .card:nth-child(18) .icon {
-    background-image: url(assets/grasa4.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/760462650365837332/966402072406790194/IMG_1417.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -330,8 +330,9 @@ i {
 }
 
 .containera .card .face.face2 {
+    color: white;
     position: relative;
-    background: #fff;
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,7 +350,7 @@ i {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: #414141;
+    color: white;
     
 }
 
@@ -364,7 +365,7 @@ i {
 
 .containera a {
     text-decoration: none;
-    color: #414141;
+    color: white;
 }
 .containera a:hover{
     color: #f00;
