@@ -379,8 +379,9 @@ i {
 }
 
 #otlcim:hover{
-    color: rgb(90, 5, 129);
+    /* color: rgb(90, 5, 129); */
     text-decoration: none;
+    color: hotpink;
 }
 
 
