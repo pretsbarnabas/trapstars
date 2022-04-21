@@ -380,8 +380,9 @@ i {
 
 #otlcim:hover{
     color: rgb(90, 5, 129);
-    text-decoration: underline;
+    text-decoration: none;
 }
+
 
 @keyframes moveFromLeft{
     0%{
