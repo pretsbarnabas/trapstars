@@ -384,6 +384,28 @@ i {
     color: hotpink;
 }
 
+.utószó{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+}
+
+.utószó a:visited{
+    color: #414141;
+    text-decoration: none;
+}
+
+.utószó a{
+    color: #414141;
+    text-decoration: none;
+}
+
+.utószó a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
 
 @keyframes moveFromLeft{
     0%{
